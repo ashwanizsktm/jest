@@ -1,0 +1,40 @@
+what is jest framework?
+
+Jest is a delightful javaScript Testing framework with a focus on simplicity.
+
+why JEST is better?
+
+1. zero configurations: - there is no configuration required.
+
+2. snapshots - snapshot testing is great. 
+    I.  it let's u to capture a string that represents your rendered component and store it in a file,
+            then you can compare it later to ensure that UI didn't change. 
+    II. it makes test which keep track of larger objects with the ease.
+
+3. Isolated
+    I.  Isolated test are paralyzed by running them in their own process to maximize the performance.
+
+
+4. Great API
+    I.  From great api to expect just has a entire toolkit in one place.
+
+
+5. Fast and safe
+    I. JEST is fast and safe. what makes JEST so fast there are two things.
+        1. Parallelization.
+        2. To make things quick just runs previously failed test first and also it runs the slowest test first.
+
+
+6. Code coverage
+    I.  It can generate the coverage just by adding --coverage flag don't need to do setup for this.
+    II. Can collect the code coverage information from the entire project including the untested files as well.
+
+
+7. Easy Mocking
+    I. It uses a custom resolver for imports in your test making it simple to mock any object outside your test scope.
+    II. It can use mock the imports with rich mock functions api to spy on function calls with readable test syntex.
+
+
+8. Great Exceptations
+    I.  when the test fails then it provides the rich context like what is expected & what is received all those informations
+        are clearly maintained.
